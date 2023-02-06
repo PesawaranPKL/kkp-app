@@ -43,8 +43,8 @@
 						<td><?= $user['nama_perusahaan']; ?></td>
                         <td><?= $user['pimred']; ?></td>
 						<td><?= $user['alamat']; ?></td>
-						<td><?= $user['keterangan']; ?></td>
-						<td><?= $user['status']; ?></td>
+						<td class="text-center"><?= $user['keterangan']; ?></td>
+						<td class="text-center"><?= $user['status']; ?></td>
                         <td><?= date('d F Y', $user['tgl_pengajuan']); ?></td>
                         <!-- <td><?= date('d F Y', $user['tgl_disetujui']); ?></td> -->
                     </tr>
